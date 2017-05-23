@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linear"
+    android:gravity="center_horizontal"
+    tools:context="rlathfdl463.kr.hs.emirim.contextmenutest.MainActivity">
+
+  <Button
+      android:id="@+id/but1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="#fcd6d6"
+      android:text="김성철"/>
+
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#c4e5f1"
+        android:text="안노옹"/>
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/love"/>
+
+</LinearLayout>
